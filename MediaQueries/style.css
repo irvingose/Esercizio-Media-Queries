@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container_3card {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 10%;
+}
+.gatto {
+  background: linear-gradient(to bottom, #b2b2b2, #ededed);
+  border-radius: 20px;
+  display: block;
+  width: 335px;
+  height: 480px;
+}
+
+.container_img {
+  width: 335px;
+}
+.container_img img {
+  width: 100%;
+}
+.two_img {
+  display: flex;
+}
+.name_card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+}
+.gatto_header {
+  display: flex;
+  align-items: center;
+}
+.buttonpunt {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+}
+.user {
+  background-color: white;
+  border-radius: 50px;
+  padding: 23px;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+.paragraph {
+  font-size: 15px;
+  padding: 15px;
+}
+
+.paragraph span {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .container_3card {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 375px) {
+  .container_3card {
+    flex-direction: column;
+  }
+}
